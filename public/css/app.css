@@ -1,0 +1,162 @@
+/* INICIO */
+
+
+.imagenInicio{
+
+    height: 500px;
+    width: 1000px;
+}
+
+#h1Inicio{
+
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #h4Inicio{
+  
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .parrafoInicio{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+  }
+
+  @media (max-width: 767px){
+
+    .imagenInicio{
+  
+        height: 200px;
+        width: 370px;
+    }
+  }
+
+/* ABOUT US */
+
+
+#h1AU{
+
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .parrafoAU{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+  }
+  
+  
+  
+  @media (max-width: 767px){
+  
+    .imagenAU{
+  
+        height: 200px;
+        width: 370px;
+    }
+  }
+
+
+/* CONTACTO */
+
+
+/* Labels del formulario*/
+label{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+textarea{
+  width: 300px; /* Ancho fijo */
+  height: 200px; /* Altura fija */
+  resize: none; /* Deshabilita la redimensionabilidad */
+}
+
+@media (max-width: 767px){
+
+  .imagenContacto{
+      height: 230px;
+      width: 360px;
+  }
+}
+
+
+/* PRODUCTOS */
+
+#h2P, #pMethod{
+
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nombre, .precio{
+
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#carrito, #cuenta{
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+/* BOTONES */
+
+
+button{
+
+  background-color: rgb(2, 8, 92);
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: black;
+  border-radius: 30px;
+  
+}
+
+
+
+/* EXITO */
+
+
+.h4Exito{
+
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pExito{
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 5px 5px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
